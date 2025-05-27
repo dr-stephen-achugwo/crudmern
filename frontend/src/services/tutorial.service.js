@@ -1,7 +1,7 @@
 import axios from "axios";
  
 const http = axios.create({
-    baseURL: "http://localhost:8080/api",
+    baseURL: "https://crudserver-rixt.onrender.com",
     headers: {
         "Content-Type": "application/json",
     },
